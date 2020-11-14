@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@keyframes zoomin {
+    0% {
+        margin-top:5px;
+        font-size:10px;
+    }
+
+    100% {
+        margin-top:80px;
+        font-size:60px;
+    }
+}
+.myinput {
+    width:70vw;
+    padding:10px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+h1 {
+    font-family: 'Roboto';
+    /*font-size:50px;*/
+    animation: zoomin 1s forwards;
+    position:relative;
+}
+a {
+    font-family: 'Roboto';
+    font-size:20px;    
+}
+body {
+    text-align:center;
+}
